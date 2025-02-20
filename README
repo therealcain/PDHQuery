@@ -1,0 +1,4 @@
+# Modern C++ PDH Wrapper
+
+A modern RAII-style wrapper for Windows Performance Data Helper (PDH) API, providing type-safe and exception-safe resource management written in C++23.
+
