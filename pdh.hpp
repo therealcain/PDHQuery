@@ -12,14 +12,6 @@
 
 class PdhQuery {
 public:
-    struct CounterValue
-    {
-        double value;
-        DWORD itemCount;
-        PDH_FMT_COUNTERVALUE_ITEM *items;
-    };
-
-public:
     PdhQuery();
 
     std::expected<void, std::error_code>
